@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.gif-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+}
+
+.gif-search {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.gif-search > input {
+  width: 100%;
+}
+
+.gif-results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gif-item {
+  
+}
+
+.gif-history > ul {
+  width: 150px;
+  text-align: left;
+}
+
+.pagination-buttons {
+  margin-bottom: 10px;
+}
